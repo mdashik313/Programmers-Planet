@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    ul{
+        list-style-type: none;
+        overflow:hidden;
+        background-color: #333333;
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        float: left;
+        
+    }
+    li a{
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;   /*removes underline*/
+        color: white;
+        
+    }
+
+    body {
+        background-color: aliceblue;
+    }
+
+    #post_main_div {
+        height: 700px;
+        width: 900px;
+        margin: 0 0 50px 170px;
+    }
+
+    .post_detail {
+        padding: 20px 0 20px 10px;
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 70%;
+    }
+
+    .div_left {
+        float: left;
+        width: 15%;
+        height: 70%;
+    }
+    .div_right {
+        float: right;
+        width: 85%;
+        height: 70%;
+    }
+
+    .post_votes{
+        border-radius: 1;
+        height: 17%;
+        width: 70%;
+        background-color: #e72424;
+        padding: 2px 0 2px 0;
+        margin: 0 0 0 0;
+    }
+    .post_up_vote{
+        height: 50%;
+        padding: 2px 10px 0 8px;
+    }
+    .post_down_vote{
+        height: 50%;
+        padding: 5px 10px 5px 8px;
+    }
+
+    .post_creator {
+        padding-right: 10px;
+    }
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> <a href="#home">Home</a></li>
+            <li> <a href="#About">About</a></li>
+            <li> <a href="#Contact">Contact</a></li>
+            <li> <a href="#home">More</a></li>
+        </ul>
+    </nav>
+    
+    <div id="post_main_div">
+        <h2 style="background-color: #3498DB;padding: 10px 0 10px 10px; width: 100%;">Lowest common ancestor</h2>
+        <div class="post_detail">
+            <div class="div_left">
+                <div class="post_votes">
+                    <div class="post_up_vote">
+                        <div style="float: left;"><svg width="26" height="14" viewBox="0 0 26 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 0L25.1244 13.5H0.875645L13 0Z" fill="#D9D9D9"/></svg></div>  <div style="float: right;">+2</div>
+                    </div>
+                    <div class="post_down_vote">
+                        <div style="float: left;"><svg width="26" height="14" viewBox="0 0 26 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 14L0.875645 0.5H25.1244L13 14Z" fill="#D9D9D9"/></svg></div>  <div style="float: right;">-2</div>
+                    </div>
+                </div>
+                
+
+            </div>
+            <div class="div_right">
+                <div class="post_creator">
+                    <p style="float: left;">Asked by <a href="#name">asad</a> on 25 February 2023. </p>
+                    <img style="height: 50px; float: right;" src="img/temp.jpeg" alt="">
+                </div>
+                <div></div>
+            </div> 
+            <div class="post_tags">
+
+            </div>
+            <div class="post_action_buttons">
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
